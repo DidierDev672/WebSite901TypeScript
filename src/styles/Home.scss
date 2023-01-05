@@ -1,0 +1,145 @@
+.Home{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-food{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-food{
+    @media screen and (max-width: 720px){
+        display: flex;
+        flex-direction: column;
+    }
+
+    @media screen and (max-width: 896px){
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.img-responsive{
+    position: relative;
+    width: 250rem;
+}
+
+.background-box{
+    background-color: #E14D2A;
+}
+
+.background-food{
+    background-color: #153462;
+    color: white;
+}
+
+.paragraph{
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.paragraph{
+    @media screen and (max-width: 720px){
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+}
+
+.paragraph-food{
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+.paragraph-food{
+    position: relative;
+    margin-top: 10rem;
+}
+
+.paragraph-food{
+    @media screen and (max-width: 720px){
+        position: relative;
+        margin-top: 0;
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    @media screen and (max-width: 896px){
+        position: relative;
+        margin-top: 1rem;
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    @media screen and (max-width: 1180px){
+        position: relative;
+        margin-top: 5rem;
+    }
+}
+
+.content-ask{
+    display: flex;
+    flex-direction: column;
+}
+
+.content-ask-header{
+    width: 50rem;
+    background-color: #EB6440;
+    color: #181818;
+    padding: 1rem;
+}
+
+.content-ask-header{
+    position: relative;
+    top: -7rem;
+    left: 28%;
+}
+
+.content-ask-header{
+    @media screen and (max-width: 720px){
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+
+    @media screen and (max-width: 1280px){
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+}
+
+.content-ask-header > p{
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+
+    @media screen and (max-width: 720px){
+        font-size: 1.2rem;
+        line-height: 2.2rem;
+    }
+}
+
+.content-ask-header > h2{
+    font-weight: 800;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+
+    @media screen and (max-width: 720px){
+        font-size: 1.3rem;
+        line-height: 2.3rem;
+    }
+}
+
+.content-ask-header > span{
+    font-weight: 900;
+    font-size: 1.3rem;
+    line-height: 2.3rem;
+
+    @media screen and (max-width: 720px){
+        font-size: 1.2rem;
+        line-height: 2.2rem;
+    }
+}
